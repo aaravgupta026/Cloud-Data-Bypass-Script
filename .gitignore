@@ -1,0 +1,20 @@
+# Absolute core security: Never upload AWS configurations or keys
+.aws/
+credentials
+config
+*.pem
+*.csv
+
+# Python environment clutter
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Jupyter / Google Colab notebook temporary files
+.ipynb_checkpoints/
+notebook.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
